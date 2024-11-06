@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+    font-family: "DM Serif Display", serif;
     color: #3a5635;
 }
 
@@ -31,6 +31,11 @@ header h1 {
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 form {
@@ -61,6 +66,8 @@ form button {
 
 table {
     width: 100%;
+    border-collapse: collapse;
+    flex: 1;
 }
 
 table th {
@@ -77,6 +84,11 @@ table td {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.mensage {
+    max-width: 400px;
+    flex-shrink: 0;
+    width: 100%;
+}
 
 
 footer {
